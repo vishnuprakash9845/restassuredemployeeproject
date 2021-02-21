@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20282" started-at="2021-02-21T04:44:42Z" finished-at="2021-02-21T04:45:03Z">
+    <groups>
+    </groups>
+    <test name="EmployeesRestAPITest" duration-ms="20282" started-at="2021-02-21T04:44:42Z" finished-at="2021-02-21T04:45:03Z">
+      <class name="com.employee.testCases.TC005_Delete_Employee_Record">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.employee.testCases.TC005_Delete_Employee_Record@604ed9f0]" name="setup" is-config="true" duration-ms="13" started-at="2021-02-21T10:14:42Z" finished-at="2021-02-21T10:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteEmployee()[pri:0, instance:com.employee.testCases.TC005_Delete_Employee_Record@604ed9f0]" name="deleteEmployee" is-config="true" duration-ms="6776" started-at="2021-02-21T10:14:42Z" finished-at="2021-02-21T10:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employee.testCases.TC005_Delete_Employee_Record@604ed9f0]" name="checkResponseBody" duration-ms="17" started-at="2021-02-21T10:14:49Z" finished-at="2021-02-21T10:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employee.testCases.TC005_Delete_Employee_Record@604ed9f0]" name="checkStatusCode" duration-ms="6" started-at="2021-02-21T10:14:49Z" finished-at="2021-02-21T10:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+      </class> <!-- com.employee.testCases.TC005_Delete_Employee_Record -->
+      <class name="com.employee.testCases.TC001_Get_All_Employees">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.employee.testCases.TC001_Get_All_Employees@685cb137]" name="setup" is-config="true" duration-ms="0" started-at="2021-02-21T10:14:53Z" finished-at="2021-02-21T10:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:com.employee.testCases.TC001_Get_All_Employees@685cb137]" name="getAllEmployees" is-config="true" duration-ms="3131" started-at="2021-02-21T10:14:53Z" finished-at="2021-02-21T10:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employee.testCases.TC001_Get_All_Employees@685cb137]" name="checkResponseBody" duration-ms="32" started-at="2021-02-21T10:14:56Z" finished-at="2021-02-21T10:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.employee.testCases.TC001_Get_All_Employees@685cb137]" name="checkResponseTime" duration-ms="4" started-at="2021-02-21T10:14:56Z" finished-at="2021-02-21T10:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employee.testCases.TC001_Get_All_Employees@685cb137]" name="checkStatusCode" duration-ms="5" started-at="2021-02-21T10:14:56Z" finished-at="2021-02-21T10:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+      </class> <!-- com.employee.testCases.TC001_Get_All_Employees -->
+      <class name="com.employee.testCases.TC002_Get_Single_Employee_Record">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.employee.testCases.TC002_Get_Single_Employee_Record@6a41eaa2]" name="setup" is-config="true" duration-ms="0" started-at="2021-02-21T10:14:56Z" finished-at="2021-02-21T10:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getEmployeeData()[pri:0, instance:com.employee.testCases.TC002_Get_Single_Employee_Record@6a41eaa2]" name="getEmployeeData" is-config="true" duration-ms="3063" started-at="2021-02-21T10:14:56Z" finished-at="2021-02-21T10:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeData -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employee.testCases.TC002_Get_Single_Employee_Record@6a41eaa2]" name="checkResponseBody" duration-ms="5" started-at="2021-02-21T10:14:59Z" finished-at="2021-02-21T10:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.employee.testCases.TC002_Get_Single_Employee_Record@6a41eaa2]" name="checkResponseTime" duration-ms="7" started-at="2021-02-21T10:14:59Z" finished-at="2021-02-21T10:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employee.testCases.TC002_Get_Single_Employee_Record@6a41eaa2]" name="checkStatusCode" duration-ms="3" started-at="2021-02-21T10:14:59Z" finished-at="2021-02-21T10:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+      </class> <!-- com.employee.testCases.TC002_Get_Single_Employee_Record -->
+      <class name="com.employee.testCases.TC003_Post_Employee_Record">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.employee.testCases.TC003_Post_Employee_Record@7cd62f43]" name="setup" is-config="true" duration-ms="0" started-at="2021-02-21T10:14:59Z" finished-at="2021-02-21T10:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createEmployee()[pri:0, instance:com.employee.testCases.TC003_Post_Employee_Record@7cd62f43]" name="createEmployee" is-config="true" duration-ms="3369" started-at="2021-02-21T10:14:59Z" finished-at="2021-02-21T10:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployee -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employee.testCases.TC003_Post_Employee_Record@7cd62f43]" name="checkResponseBody" duration-ms="3" started-at="2021-02-21T10:15:02Z" finished-at="2021-02-21T10:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employee.testCases.TC003_Post_Employee_Record@7cd62f43]" name="checkStatusCode" duration-ms="12" started-at="2021-02-21T10:15:02Z" finished-at="2021-02-21T10:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+      </class> <!-- com.employee.testCases.TC003_Post_Employee_Record -->
+      <class name="com.employee.testCases.TC004_Put_Employee_Record">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.employee.testCases.TC004_Put_Employee_Record@6a4f787b]" name="setup" is-config="true" duration-ms="2" started-at="2021-02-21T10:14:49Z" finished-at="2021-02-21T10:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createEmployee()[pri:0, instance:com.employee.testCases.TC004_Put_Employee_Record@6a4f787b]" name="createEmployee" is-config="true" duration-ms="3437" started-at="2021-02-21T10:14:49Z" finished-at="2021-02-21T10:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployee -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employee.testCases.TC004_Put_Employee_Record@6a4f787b]" name="checkResponseBody" duration-ms="4" started-at="2021-02-21T10:14:53Z" finished-at="2021-02-21T10:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employee.testCases.TC004_Put_Employee_Record@6a4f787b]" name="checkStatusCode" duration-ms="8" started-at="2021-02-21T10:14:53Z" finished-at="2021-02-21T10:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.employee.testCases.TC004_Put_Employee_Record@6a4f787b]" name="checkStatusLine" duration-ms="15" started-at="2021-02-21T10:14:53Z" finished-at="2021-02-21T10:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.employee.testCases.TC004_Put_Employee_Record -->
+    </test> <!-- EmployeesRestAPITest -->
+  </suite> <!-- Suite -->
+</testng-results>
